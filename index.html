@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachith_kalhara</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f34a09aa1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo1.png" class="logo1">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfoilio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer & QA Engineer</p>
+                <h1>Hi, I'm <span>Sachith</span><br> Kalhara From Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------About-------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Sachith, a passionate undergraduate student pursuing a degree in Software
+                        Engineering. I enjoy solving problems through coding and creating efficient, user-friendly
+                        solutions. With hands-on experience in web development, I am continuously growing my skills as a
+                        software engineer. In addition to my engineering journey, I am also developing my expertise in
+                        software quality
+                        assurance (QA). I love ensuring that products meet the highest standards by finding and fixing
+                        issues to deliver reliable, high-quality software. Whether it's building new features or
+                        ensuring software excellence through testing, I'm always eager to learn and take on new
+                        challenges.
+
+                        Feel free to explore my projects and get in touch!</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Quality Assurance</span><br>Manual testing, Test automation, Functional testing,
+                                API testing</li>
+                            <li><span>Analyzing</span><br>Analyzing and documenting bugs and errors</li>
+                            <li><span>MERN STACK</span><br>Web Apps Development</li>
+                            <li><span>Frontend Developing</span><br>JavaScript,React.js,Boostrap</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-2024</span><br>Web development Training at Sensus Hub Pvt Ltd</li>
+                            <li><span>2023-Current</span><br>System analyzer at Ceco Pvt Ltd</li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-Current</span><br>Bsc Software Engineering at ICBT Colombo campus
+                                (Cardiff-Met)</li>
+                            <li><span>2024-Current</span><br>Certified Professional - Selenium Automation Testing at
+                                Udemy online platform</li>
+                            <li><span>2023(Completed)</span><br>Certificate of "EH Godzilla" at HackingLk online
+                                platform</li>
+                            <li><span>2020 - 2022</span><br>Higher Diploma in Software Engineering at ICBT Southern
+                                campus(Cardiff-Met)</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------Services-------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developing</h2>
+                    <p>I specialize in creating responsive, user-friendly web applications that bring ideas to life.
+                        From
+                        designing smooth layouts to integrating back-end functionality, I focus on building efficient
+                        and scalable web solutions that meet your business needs. Whether it is a personal project or a
+                        complex web application, I am dedicated to delivering a seamless experience for both users and
+                        administrators.</p>
+                    <a href="https://www.geeksforgeeks.org/web-development/">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-bug"></i>
+                    <h2>Quality Assurance</h2>
+                    <p>Ensuring the highest quality in software is my priority. I provide thorough testing services to
+                        identify bugs, improve performance, and ensure that your software runs smoothly across all
+                        platforms. By catching issues early, I help ensure that your product meets user expectations and
+                        operates reliably. My QA services focus on functionality, usability, and performance, aiming for
+                        excellence in every project.</p>
+                    <a href="https://www.productplan.com/glossary/quality-assurance/">Learn More</a>
+                </div>
+
+                <DIV>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>FrontEnd Devoloping</h2>
+                    <p>I build clean, modern, and interactive user interfaces that enhance the overall user experience.
+                        My expertise in frontend development ensures your website or app looks great across devices and
+                        browsers while maintaining optimal performance. I pay close attention to detail, making sure
+                        your product is not only visually appealing but also intuitive and easy to use.</p>
+                    <a href="https://www.geeksforgeeks.org/front-end-development/">Learn More</a>
+                </DIV>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------portfolio--------------->
+
+
+
+
+    <div id="portfoilio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work1.png">
+                    <div class="layer">
+                        <h3>Medical Channeling System</h3>
+                        <p>The App connects you to the Relevent Doctors around the area. Expect new features and new
+                            tools in the future. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work2.png">
+                    <div class="layer">
+                        <h3>Student Management System</h3>
+                        <p>Facilitates management of Student data and info within the School system. </p>
+                        <a href="https://github.com/Sachith0007/Student-Management-System-BackEnd-"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work3.png">
+                    <div class="layer">
+                        <h3>Workout App</h3>
+                        <p>Easily shedule all your warkouts.Still under maintaining and look forward to the future. </p>
+                        <a href="https://github.com/Sachith0007/WorkoutApp-BackEnd"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Sachith0007" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <!---------------CONTACT--------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> SachithKalharaedu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0712901509 | 0774716779</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=61554482466650"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sachith_n_kalhara/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sachith-kalhara-19b11219b/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/SachithK007"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="Images/mycv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright © Sachith Kalhara 2024. All Rights Reserved <i class="fa-solid fa-award"></i> .</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwes8wruK9-jwdjKS-EPn-teCaNIwQxYyaajKAanvN9ZUQu9xI1UuZ06MOtyFcCURuZ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
